@@ -122,7 +122,7 @@ feed 15m http://dev-loki.blogspot.com/feeds/posts/default?alt=rss
 #feed 15m http://metaverse.wordpress.com/feed/atom/
 #	define_name Mike McCallister
 
-feed 15m http://www.kdedevelopers.org/blog/280/feed
+feed 15m http://blogs.kde.org/blog/280/feed
 	define_name Lubos Lunak
 	define_irc  llunak
 	define_member 1
@@ -130,7 +130,7 @@ feed 15m http://www.kdedevelopers.org/blog/280/feed
 feed 15m http://antjefaber.blogspot.com/feeds/posts/full
 	define_name Antje Faber
 
-feed 15m http://www.kdedevelopers.org/blog/457/feed
+feed 15m http://blogs.kde.org/blog/457/feed
 	define_name Stephan Binner
 	define_irc  Beineri
 	define_member 1
@@ -141,7 +141,7 @@ feed 15m http://lizards.opensuse.org/author/coolo/feed/
 	define_irc  coolo
 	define_member 1
 
-feed 15m http://www.kdedevelopers.org/blog/124/feed
+feed 15m http://blogs.kde.org/blog/124/feed
 	define_name Stephan Kulow
 	define_face coolo
 	define_irc  coolo
@@ -151,7 +151,7 @@ feed 15m http://rschiele.blogspot.com/feeds/posts/full
 	define_name Robert Schiele
 	define_irc  schiele
 
-feed 15m http://dkukawka.blogspot.com/feeds/posts/default
+feed 15m http://blog.bisect.de/feeds/posts/default
 	define_name Danny Kukawka
 	define_irc  dannyK
 
@@ -192,7 +192,7 @@ feed 15m http://duncan.mac-vicar.com/tag/suse/feed
 	define_irc  duncanmv
 	define_member 1
 
-feed 15m http://jprosevear.org/blog/?feed=rss2
+feed 15m http://blog.jprosevear.org/feed/
 	define_name JP Rosevear
 	define_face http://planet.gnome.org/heads/jpr.png
 	define_irc  jpr
@@ -206,7 +206,7 @@ feed 15m http://lizards.opensuse.org/author/mlasars/feed/
 	define_name Martin Lasarsch
 	define_irc  notlocalhorst
 
-feed 15m http://www.kdedevelopers.org/blog/77/feed
+feed 15m http://blogs.kde.org/blog/77/feed
 	define_name Will Stephenson
 	define_face wstephenson
 	define_irc  wstephenson
@@ -394,8 +394,9 @@ feed 15m http://hpjansson.org/blag/feed/
 	define_face http://planet.gnome.org/heads/hpj.png
 	define_irc  hpj
 
-feed 15m http://www.freetechie.com/blog/category/techie/suse-linux/feed/
-	define_name Ben Kevan
+# disabled: Timeout while reading feed
+#feed 15m http://www.freetechie.com/blog/category/techie/suse-linux/feed/
+#	define_name Ben Kevan
 
 feed 15m http://yarpen.cz/rants/?feed=rss2
 	define_name Petr Vaněk
@@ -408,16 +409,17 @@ feed 15m http://wire.dattitu.de/rss.php?category=4
 feed 15m http://lizards.opensuse.org/author/dirkmueller/feed/
 	define_name Dirk Müller
 
-feed 15m http://cgoncalves.blogspot.com/feeds/posts/default
+feed 15m http://blog.cgoncalves.pt/feeds/posts/default
 	define_name Carlos Gonçalves
 	define_face cgoncalves
 	define_irc  cgoncalves
 	define_member 1
 
-feed 15m http://www.coolice.org/blog/?feed=rss2
-	define_name Magnus Boman
-	define_irc  captain_magnus
-	define_member 1
+# HTTP Status: 404
+#feed 15m http://www.coolice.org/blog/?feed=rss2
+#	define_name Magnus Boman
+#	define_irc  captain_magnus
+#	define_member 1
 
 #feed 15m http://debaer.org/blog/?feed=rss2
 #	define_name Jo De Baer
@@ -430,9 +432,10 @@ feed 15m http://blog.cristianrodriguez.net/feeds/posts/default
 feed 15m http://lilypond.org/blog/janneke/rss/?css=0
 	define_name Jan Nieuwenhuizen
 
-feed 15m http://spotlight.opensuse.org/feed/
-	define_name openSUSE Spotlight
-	define_face opensuse
+# HTTP Status: 404
+#feed 15m http://spotlight.opensuse.org/feed/
+#	define_name openSUSE Spotlight
+#	define_face opensuse
 
 feed 15m http://www.bryen.com/?feed=rss2
 	define_name Bryen Yunashko
@@ -520,7 +523,7 @@ feed 15m http://jniq.blogspot.com/feeds/posts/default
 	define_irc jniq
 	define_member 1
 
-feed 15m http://cameronseader.blogspot.com/feeds/posts/default
+feed 15m http://blog.seader.us/feeds/posts/default
 	define_name Cameron Seader
 	define_face cameron
 
@@ -544,7 +547,7 @@ feed 15m http://mzugec.blogspot.com/feeds/posts/default
 	define_name Michal Zugec
 	define_irc  miso
 
-feed 15m http://gburt.blogspot.com/feeds/posts/default
+feed 15m http://www.gabrielburt.com/feeds/posts/default
 	define_name Gabriel Burt
 	define_face http://planet.gnome.org/heads/gabaug.png
 
@@ -749,10 +752,11 @@ feed 15m http://lizards.opensuse.org/author/k0da/feed/
 	define_irc  k0da
 	define_member 1
 
-feed 15m http://andrew.jorgensenfamily.us/category/opensuse/feed/
-	define_name Andrew Jorgensen
-	define_face ajorg
-	define_irc  ajorg
+# HTTP Status: 403
+#feed 15m http://andrew.jorgensenfamily.us/category/opensuse/feed/
+#	define_name Andrew Jorgensen
+#	define_face ajorg
+#	define_irc  ajorg
 
 #feed 15m http://lizards.opensuse.org/author/bwalle/feed/
 #	define_name Bernhard Walle
@@ -913,10 +917,11 @@ feed 15m http://lizards.opensuse.org/author/jsrain/feed/
 feed 15m http://lizards.opensuse.org/author/andreasstieger/feed/
 	define_name Andreas Stieger
 
-feed 15m http://www.phocean.net/category/administration-systeme/linux/opensuse-linux-administration-systeme/feed
-	define_name Jean-Christophe Baptiste
-	define_face http://www.phocean.net/wp-content/uploads/2010/04/JCB100.png
-	define_irc  phocean
+# HTTP Status: 404
+#feed 15m http://www.phocean.net/category/administration-systeme/linux/opensuse-linux-administration-systeme/feed
+#	define_name Jean-Christophe Baptiste
+#	define_face http://www.phocean.net/wp-content/uploads/2010/04/JCB100.png
+#	define_irc  phocean
 
 feed 15m http://lizards.opensuse.org/author/holgisms/feed/
 	define_name Holger Sickenberg
@@ -1417,7 +1422,7 @@ feed 15m http://figaro.neo-info.net/?feed=rss2
 	define_lang tw
 	define_face cheng_ho_yang
 
-feed 15m http://nowwhatthe.blogspot.com/feeds/posts/default
+feed 15m http://blog.jospoortvliet.com/feeds/posts/default
 	define_name Jos Poortvliet
 	define_face jospoortvliet
 	define_irc jospoortvliet
@@ -1673,7 +1678,7 @@ feed 15m http://webeve.de/~cwh/blog/category/opensuse/feed/
 	define_member 1
 	define_face cwh
 
-feed 15m http://nbprashanth.wordpress.com/feed/rss/
+feed 15m http://nbprashanth.wordpress.com/feed/
 	define_name N.B.Prashanth
 	define_irc  nbprashanth
 
